@@ -8,3 +8,6 @@ textual>=0.41.0
 rich>=13.0.0
 solana>=0.30.0
 solders>=0.18.0
+aiohttp
+base58
+numpy

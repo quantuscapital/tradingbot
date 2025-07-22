@@ -1,0 +1,14 @@
+{
+  "sol_balance": 10.0,
+  "positions": {},
+  "metrics": {
+    "total_trades": 0,
+    "winning_trades": 0,
+    "total_pnl_sol": 0.0,
+    "total_pnl_usd": 0.0,
+    "largest_win": 0.0,
+    "largest_loss": 0.0,
+    "average_hold_time": 0.0
+  },
+  "last_updated": "2025-07-21T23:56:01.314245"
+}

@@ -1,0 +1,52 @@
+max_time_without_alert: 3600
+max_tokens_per_request: 50
+message_interval: 5
+paper_trading:
+  allocation_percentage: 15.0
+  enabled: false
+  initial_balance: 10.0
+  max_time_without_trade: 7200
+  position_size_multipliers:
+    high_conviction_multiplier: 1.5
+    high_conviction_threshold: 80
+    medium_conviction_multiplier: 1.2
+    medium_conviction_threshold: 60
+  profit_tiers:
+  - profit_percent: 30.0
+    sell_percent: 50.0
+    trailing_stop: 20.0
+  - profit_percent: 50.0
+    sell_percent: 25.0
+    trailing_stop: 30.0
+  - profit_percent: 80.0
+    sell_percent: 25.0
+    trailing_stop: 40.0
+  slippage_tolerance: 2.0
+  stop_loss_percent: 10.0
+price_update_interval: 1
+scan_interval: 300
+scoring_weights:
+  buy_sell_ratio: 10
+  liquidity: 20
+  multiplier: 5
+  positive_price_change: 10
+  price_change: 20
+  transactions: 15
+  volume: 20
+token_criteria:
+  max_price_change: 1000
+  min_buy_transactions: 10
+  min_liquidity: 10000
+  min_price_change: 25
+  min_sell_transactions: 5
+  min_volume: 5000
+  multiplier_thresholds:
+    10x: 900
+    2x: 100
+    3x: 200
+    5x: 400
+  multiplier_time_window: 86400
+  pnl_threshold: 50
+ui:
+  auto_save: true
+  theme: dark
